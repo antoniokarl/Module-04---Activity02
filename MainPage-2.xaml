@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Module04Activity02.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="Title"/>
+        </Frame>
+
+        <Button Text="Tabbed Page"
+                BackgroundColor="#2196F3"
+                TextColor="White"
+                Clicked="Btn_GoTo_Page"
+                x:Name="Btn_GoTo_TabbedPage"/>
+
+        <Button Text="Carousel Page"
+                BackgroundColor="#2196F3"
+                TextColor="White"
+                Clicked="Btn_GoTo_Page"
+                x:Name="Btn_GoTo_CarouselPage"/>
+    </StackLayout>
+
+</ContentPage>
